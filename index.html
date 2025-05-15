@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Snipe Pop</title>
+  <link rel="icon" href="logo.jpg">
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    Snipe Pop
+    <button onclick="showInstructions()" style="margin-left: 20px;">How to Play</button>
+  </header>
+  <main>
+    <canvas id="gameCanvas"></canvas>
+    <div id="popup">Game Over</div>
+    <div id="scorePopup">+1</div>
+    <div id="startPopup">Click Start to Begin!</div>
+  </main>
+ 
+  <div class="button-container">
+    <div>
+      <span id="score">Score: 0</span>
+      <span id="topScore">Top Score: 0</span>
+      <span id="timer">Timer: 30</span>
+    </div>
+    <div>
+      <button onclick="reset()">Reset</button>
+      <button onclick="startGame()">Start</button>
+      <button onclick="toggleLeaderboard()">Leaderboard</button>
+      <button onclick="startHit()">Hit</button>
+    </div>
+  </div>
+
+  <div id="leaderboard">
+    <h3>Your Scores</h3>
+    <ul id="leaderboardList"></ul>
+    <button onclick="toggleLeaderboard()">Close</button>
+  </div>
+
+  <div id="instructions">
+    <h2>How to Play</h2>
+    <p><strong>Objective:</strong> Hit the moving circle with the arrow!</p>
+    <p><strong>Controls:</strong></p>
+    <ul>
+      <li>Click start button to start the game</li>
+      <li>Drag the arrow up/down with your mouse or finger</li>
+      <li>Or use ↑ / ↓ keys to move the arrow</li>
+      <li>Click <strong>Hit</strong> to shoot the arrow</li>
+    </ul>
+    <p>You have 30 seconds to score as much as possible! If you miss 3 shots in a row, game ends early!</p>
+    <button onclick="closeInstructions()">Close</button>
+  </div>
+  <div id="newHighScoreBadge">🏆 New Record!</div>
+  <script src="script.js"></script>
+</body>
+</html>
