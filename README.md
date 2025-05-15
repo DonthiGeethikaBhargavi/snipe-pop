@@ -78,8 +78,19 @@ Hit the moving bubble with the arrow to score points. Beat your top score and tr
    ```bash
    git clone https://github.com/your-username/SnipePop.git
 2. Navigate to the folder:
+   ```bash
    cd bubbles-app
-3. Open index.html in your browser and start playing!
+4. Open index.html in your browser and start playing!
 
 ## 💡 Outcome
 Improved user engagement with real-time feedback, dynamic scoring, and leaderboard tracking across all devices and screen sizes.
+
+## 👨‍💻 Author
+📌 **Donthi Geethika Bhargavi**
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
