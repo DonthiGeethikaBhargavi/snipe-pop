@@ -1,41 +1,45 @@
 # 🎯 SnipePop – Interactive Browser Game
 
-An interactive, single-player browser-based game where users shoot an arrow to hit a moving bubble. On a successful hit, the bubble changes color, disappears, reappears at a random position, and the score increases by 1. Designed to be responsive and playable on all screen sizes including mobile and desktop.
+An interactive, single-player browser-based game where users shoot an arrow to hit a moving bubble. On a successful hit, the bubble changes color, disappears, reappears at a random position, and the score increases by 1. The game features a 30-second timer and ends if the player misses 3 consecutive shots. Designed to be fully responsive and playable on all screen sizes including mobile and desktop.
 
 ## 🕹️ Objective
-Hit the moving bubble with the arrow to score points. Beat your top score and track your performance on the leaderboard!
+Your mission is simple: **hit the moving bubble with your arrow to earn points**. Try to beat your personal best while racing against the clock and avoiding consecutive misses. Stay sharp and climb the leaderboard!
 
 ---
 
 ## 🎮 How to Play
 
-- 🎯 **Start** the game using the **Start** button.
-- 🔼🔽 Move the arrow up or down using:
+- 🎯 Click the **Start** button to begin the game.
+- 🔼🔽 **Move the arrow up or down** using:
   - Mouse drag or touch input  
-  - **↑ / ↓** arrow keys
+  - Keyboard: **↑ / ↓** arrow keys
 - 🏹 Click the **Hit** button to shoot the arrow.
-- 💥 If the arrow hits the bubble:
+- 💥 **If the arrow hits the bubble**:
   - The bubble changes color and disappears.
   - A **+1 popup** appears.
   - The score increases by 1.
-  - The bubble reappears and starts moving again.
-- 🏆 If your score exceeds the top score:
+  - The bubble reappears at a random position and continues moving.
+- ❌ **If you miss 3 consecutive shots**, the game ends automatically with a **Game Over** message.
+- ⏱️ **The game is timed to 30 seconds**. Try to score as much as you can before time runs out!
+- 🏆 If your current score exceeds the top score:
   - A **"New High Score!"** popup appears.
-- 📊 View your top scores anytime using the **Leaderboard** button.
+- 📊 Click the **Leaderboard** button to view your top scores.
 - 🔁 Click **Reset** to restart the game.
-- ❓ Click **How to Play** for game instructions.
+- ❓ Click **How to Play** for instructions anytime.
 
 ---
 
 ## 🔧 Features
 
-- ✅ **Single-player Game**
-- 🧠 **Real-time hit detection** with color and position changes
-- 📈 **Dynamic scoring system** with high score tracking
-- 🏆 **Leaderboard** that displays the top score
-- 💬 **Interactive popups** for +1 and new high score alerts
-- 📱 **Fully Responsive Design** for all screen sizes (mobile, tablet, desktop)
-- 🖥️ **Cross-platform support** – Playable on phones, tablets, and laptops
+- ✅ Single-player game  
+- 🧠 Real-time hit detection with color change and score update  
+- ❌ Game over after 3 missed consecutive shots  
+- ⏱️ 30-second timer challenge  
+- 📈 Dynamic scoring system with high score tracking  
+- 🏆 Leaderboard to display top score  
+- 💬 Interactive popups for **+1** and **New High Score**  
+- 📱 Fully responsive design for all screen sizes  
+- 🖥️ Cross-platform support (desktop, tablet, mobile)  
 
 ---
 
@@ -64,6 +68,11 @@ Hit the moving bubble with the arrow to score points. Beat your top score and tr
 
 ### 🏆 Leaderboard Popup
 ![image](https://github.com/user-attachments/assets/95457cfb-a586-41f6-aecb-5ac5a2aea4ad)
+
+
+### 🎯❌  Missed Hits (Game Over Popup)
+![image](https://github.com/user-attachments/assets/23e1b79c-1f7d-465e-8e61-eafbf19b8a79)
+
 
 
 ### 📱 Mobile View
