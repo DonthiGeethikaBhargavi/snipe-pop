@@ -2,6 +2,14 @@
 
 An interactive, single-player browser-based game where users shoot an arrow to hit a moving bubble. On a successful hit, the bubble changes color, disappears, reappears at a random position, and the score increases by 1. The game features a 30-second timer and ends if the player misses 3 consecutive shots. Designed to be fully responsive and playable on all screen sizes including mobile and desktop.
 
+
+
+🚀 **Live Demo:**  
+
+[![Live Demo](https://img.shields.io/badge/Play%20Now-SnipePop-green?style=for-the-badge&logo=firefox)](https://donthigeethikabhargavi.github.io/snipe-pop/)
+
+
+
 ## 🕹️ Objective
 Your mission is simple: **hit the moving bubble with your arrow to earn points**. Try to beat your personal best while racing against the clock and avoiding consecutive misses. Stay sharp and climb the leaderboard!
 
