@@ -88,7 +88,7 @@ Your mission is simple: **hit the moving bubble with your arrow to earn points**
    git clone https://github.com/your-username/SnipePop.git
 2. Navigate to the folder:
    ```bash
-   cd bubbles-app
+   cd snipe-pop
 4. Open index.html in your browser and start playing!
 
 ## 💡 Outcome
